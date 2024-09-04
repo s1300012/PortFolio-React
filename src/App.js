@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       ポートフォリオです。
       developbranchマージしました。
+      git fech,margeテストします。
     </div>
   );
 }
