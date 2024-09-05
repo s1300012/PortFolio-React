@@ -9,9 +9,9 @@ function Header() {
       </div>
       <nav className="link">
         <ul>
-          <li><a href="#home">ホーム</a></li>
-          <li><a href="#blog">ブログ</a></li>
-          <li><a href="#sns">SNS</a></li>
+          <li><a href="home">ホーム</a></li>
+          <li><a href="blog">ブログ</a></li>
+          <li><a href="sns">SNS</a></li>
         </ul>
       </nav>
     </header>

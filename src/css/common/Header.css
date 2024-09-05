@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    /* position: fixed; */
+    position: fixed;
   }
   
   .title {
@@ -12,17 +12,17 @@
     font-size: 20px;
   }
   
-  ul {
+  .link ul {
     display: flex;
     list-style: none;
     margin-right: 30px;
   }
   
-  li {
+  .link li {
     margin-right: 20px;
   }
   
-  a {
+  .link a {
     font-size: 0.875;
     color: white;
     text-decoration: none;
@@ -31,7 +31,7 @@
       text-decoration-color 0.2s ease;
   }
   
-  a:hover {
+  .link a:hover {
     color: aqua;
     text-decoration: underline;
     text-decoration: white;

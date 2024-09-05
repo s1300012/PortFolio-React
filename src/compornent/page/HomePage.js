@@ -1,9 +1,33 @@
 import React from 'react'
+import Profile from '../atoms/Profile'
 
 export default function HomePage() {
   return (
     <div>
-      HomePage
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
+      <Profile />
     </div>
   )
 }
