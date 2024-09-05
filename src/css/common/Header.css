@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    /* position: fixed; */
+  }
+  
+  .title {
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    font-size: 0.875;
+    color: white;
+    text-decoration: none;
+    transition: 
+      color 0.2s ease, 
+      text-decoration-color 0.2s ease;
+  }
+  
+  a:hover {
+    color: aqua;
+    text-decoration: underline;
+    text-decoration: white;
+  }
