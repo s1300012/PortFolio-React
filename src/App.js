@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Hedder from "./compornent/common/Header";
 import HomePage from "./compornent/page/HomePage";
 import BlogPage from "./compornent/page/BlogPage";
