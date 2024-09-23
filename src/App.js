@@ -9,7 +9,6 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
         <Hedder />
 
         <Routes>
@@ -17,7 +16,6 @@ function App() {
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/sns" element={<SnsPage />} />
         </Routes>
-      </div>
     </BrowserRouter>
   );
 }
