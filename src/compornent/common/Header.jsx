@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppBar, Button, Typography, IconButton, Toolbar, Drawer, List, ListItem, ListItemText } from '@mui/material';
+import { AppBar, Button, Typography, IconButton, Toolbar, Drawer, List, ListItem, ListItemText, Box } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
 const styleLink = {
@@ -53,9 +53,9 @@ function Header() {
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
             ポートフォリオ
           </Typography>
-          <Button color="inherit" sx={styleLink}>ホーム</Button>
-          <Button color="inherit" sx={styleLink}>ブログ</Button>
-          <Button color="inherit" sx={styleLink}>SNS</Button>
+          <Button color="inherit" sx={styleLink} href='home'>ホーム</Button>
+          <Button color="inherit" sx={styleLink} href='blog'>ブログ</Button>
+          <Button color="inherit" sx={styleLink} href='sns'>SNS</Button>
         </Toolbar>
       </AppBar> 
       <Drawer
@@ -70,6 +70,7 @@ function Header() {
       >
         {drawerList}
       </Drawer>
+      <Box sx={{ marginTop: '64px', padding: '16px' }} />
     </div>
   );
 }

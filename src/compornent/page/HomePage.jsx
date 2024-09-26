@@ -5,29 +5,6 @@ export default function HomePage() {
   return (
     <div>
       <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
-      <Profile />
     </div>
   )
 }
